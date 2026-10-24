@@ -1,4 +1,6 @@
 package navigation;
 
-public class RouteStrategy {
+public interface RouteStrategy {
+
+    Route buildRoute(Location from, Location to);
 }
